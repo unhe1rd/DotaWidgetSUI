@@ -11,7 +11,7 @@ import WidgetKit
 
 struct ContentView: View {
     let text1 = "Hello world"
-    let text2 = "ты чмо"
+    let text2 = "Bye, world"
     
     var body: some View {
         VStack{
