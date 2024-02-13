@@ -13,7 +13,7 @@ struct DotaWidgetAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomCircleTestView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
