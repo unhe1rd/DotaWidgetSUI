@@ -42,10 +42,7 @@ struct DotaMMRWidgetEntryView : View {
 
     var body: some View {
         VStack {
-            Text("Time:")
-            Text(entry.date, style: .time)
-
-            Text("Favorite Emoji:")
+            Text("MMR Tracker")
             Text(entry.configuration.favoriteEmoji)
         }
     }
@@ -65,13 +62,13 @@ struct DotaMMRWidget: Widget {
 extension ConfigurationAppIntent {
     fileprivate static var smiley: ConfigurationAppIntent {
         let intent = ConfigurationAppIntent()
-        intent.favoriteEmoji = "😀"
+        intent.favoriteEmoji = "1280"
         return intent
     }
     
     fileprivate static var starEyes: ConfigurationAppIntent {
         let intent = ConfigurationAppIntent()
-        intent.favoriteEmoji = "🤩"
+        intent.favoriteEmoji = "4292"
         return intent
     }
 }

@@ -9,10 +9,10 @@ import WidgetKit
 import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
-    static var title: LocalizedStringResource = "Configuration"
-    static var description = IntentDescription("This is an example widget.")
+    static var title: LocalizedStringResource = "Dota2 MMR Tracker"
+    static var description = IntentDescription("Dota2 MMR Tracker")
 
     // An example configurable parameter.
-    @Parameter(title: "Favorite Emoji", default: "😃")
+    @Parameter(title: "MMR", default: "1280")
     var favoriteEmoji: String
 }
